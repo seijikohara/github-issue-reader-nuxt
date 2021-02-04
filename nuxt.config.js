@@ -63,4 +63,9 @@ export default {
   generate: {
     interval: 2000,
   },
+
+  router: {
+    base: process.env.ROUTER_BASE || '/',
+    mode: process.env.ROUTER_MODE || 'history',
+  },
 }
