@@ -5,7 +5,7 @@ import { Inject } from '@nuxt/types/app'
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: `https://api.github.com/repos/facebook/react`,
+  baseURL: `https://api.github.com/repos/nuxt/nuxt.js`,
 })
 api.interceptors.response.use(
   (response) => response,
