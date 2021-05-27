@@ -33,7 +33,7 @@
     "@nuxtjs/composition-api": "^0.19.1",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.8.3",
-    "marked": "^2.0.0",
+    "marked": "^2.0.6",
     "nuxt": "^2.14.12",
     "sanitize-html": "^2.3.2"
   },
